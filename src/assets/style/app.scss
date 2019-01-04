@@ -3,6 +3,41 @@
 
 .app {
   color: $black;
+  &__header {
+    h1 {
+      margin-bottom: 0px;
+      letter-spacing: 1px;
+    }
+    span {
+      color: $gray;
+    }
+    &__info {
+      margin-top: 15px; 
+      span {
+        color: $black;
+      }
+      .social-items  {
+        display: flex;
+        .social-item {
+          margin: 20px 0px;
+          &:first-child {
+            margin-left: 0;
+          }
+          img {
+            width: 30px;
+            -webkit-filter: grayscale(100%);
+            filter: grayscale(100%);
+            &:hover {
+              padding-bottom: 10px;
+              border-bottom: 4px solid $blue;
+              -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+              filter: grayscale(0%);
+            }
+          }
+        }
+      }
+    }
+  }
   h2 {
     text-align: left;
     color: inherit;
