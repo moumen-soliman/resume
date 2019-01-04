@@ -7,7 +7,7 @@ class Header extends Component {
       <div>
         <h1>{name}</h1>
         <span>{position}</span>
-        <br/><br/>
+        <br/>
         <span>
           <b>Born:</b> {born}
         </span><br/>
