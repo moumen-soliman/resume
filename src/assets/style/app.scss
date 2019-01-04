@@ -1,0 +1,10 @@
+@import './skeleton/variables.scss';
+@import './skeleton/grids.scss';
+
+.app {
+  color: $black;
+  h2 {
+    text-align: left;
+    color: inherit;
+  }
+}
