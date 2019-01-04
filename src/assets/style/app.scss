@@ -4,15 +4,15 @@
 .app {
   color: $black;
   &__header {
-    h1 {
-      margin-bottom: 0px;
-      letter-spacing: 1px;
-    }
-    span {
-      color: $gray;
-    }
     &__info {
       margin-top: 15px; 
+      h1 {
+        margin-bottom: 0px;
+        letter-spacing: 1px;
+      }
+      span:first-child {
+        color: $gray;
+      }
       span {
         color: $black;
       }
@@ -37,9 +37,5 @@
         }
       }
     }
-  }
-  h2 {
-    text-align: left;
-    color: inherit;
   }
 }
