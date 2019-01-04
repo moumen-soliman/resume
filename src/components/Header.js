@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 class Header extends Component {
   render() {
-    const {name, position, born, email, mobile, education} = this.props
+    const {name, position, born, email, mobile} = this.props
     return (
       <div>
         <h1>{name}</h1>
@@ -16,9 +16,6 @@ class Header extends Component {
         </span><br/>
         <span>
           <b>Mobile:</b> {mobile}
-        </span><br/>
-        <span>
-          <b>Education:</b>  {education}
         </span>
       </div>
     );

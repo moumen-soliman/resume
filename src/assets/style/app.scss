@@ -16,12 +16,17 @@
       span {
         color: $black;
       }
-      .social-items  {
-        display: flex;
+      .personal-info {
+        display: inline-flex;
+      }
+      .social-items {
+        display: inline-flex;
+        float: right;
+        height: 6em;
         .social-item {
-          margin: 20px 0px;
-          &:first-child {
-            margin-left: 0;
+          margin: auto 20px;
+          &:last-child {
+            margin-right: 0;
           }
           img {
             width: 30px;
