@@ -9,6 +9,9 @@
     margin-bottom: 10px;
     border-bottom: 1px solid $gray;
   }
+  .pd-btm {
+    padding-bottom: 20px;
+  }
   &__header {
     &__info {
       margin-top: 15px;
@@ -50,7 +53,6 @@
     }
   }
   &__experience {
-    padding-bottom: 20px;
     &__item {
       h4 {
         margin-bottom: 5px;
@@ -76,7 +78,6 @@
     }
   }
   &__education {
-    padding-bottom: 20px;
     h4 {
       span {
         font-weight: 400;
@@ -85,7 +86,6 @@
     }
   }
   &__projects {
-    padding-bottom: 20px;
     &__item {
       p {
         b {
@@ -97,16 +97,13 @@
     }
   }
   &__certificate {
-    padding-bottom: 20px;
     span {
       color: $gray;
     }
   }
   &__languages {
-    padding-bottom: 20px;
   }
   &__award {
-    padding-bottom: 20px;
     p {
       margin-bottom: 0;
       span {

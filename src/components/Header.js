@@ -12,10 +12,7 @@ class Header extends Component {
           <b>Born:</b> {born}
         </span><br/>
         <span>
-          <b>Email:</b> <a href={`mailto:${email}`}>{email}</a>
-        </span><br/>
-        <span>
-          <b>Mobile:</b> {mobile}
+          <b>Contacts:</b> {mobile} / <a href={`mailto:${email}`}>{email}</a>
         </span>
       </div>
     );
