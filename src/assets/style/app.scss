@@ -118,12 +118,14 @@
 
 @media screen and (min-width: 320px) and (max-width: 1060px) {
   .app {
-    font-size: 0.67em !important;
+    font-size: 0.67em;
     .social-items {
       .social-item {
-        margin: auto 7px !important;
+        margin: auto 7px;
         img {
-          width: 12px !important;
+          width: 12px;
+          -webkit-filter: grayscale(0%);
+          filter: grayscale(0%);
         }
       }
     }
