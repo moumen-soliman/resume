@@ -110,17 +110,19 @@
         float: right;
       }
     }
-    span {
-      font-size: 15px;
-    }
   }
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
-  .social-items {
-    display: grid !important;
-    .social-item {
-      margin-bottom: 10px !important;
+  .app {
+    font-size: 0.5em !important;
+    .social-items {
+      .social-item {
+        margin: auto 7px !important;
+        img {
+          width: 12px !important;
+        }
+      }
     }
   }
 }
