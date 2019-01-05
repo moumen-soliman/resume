@@ -9,10 +9,10 @@ class Header extends Component {
         <span>{position}</span>
         <br/>
         <span>
-          <b>Born:</b> {born}
+          <b className="let-spc">Born:</b> {born}
         </span><br/>
         <span>
-          <b>Contacts:</b> {mobile} / <a href={`mailto:${email}`}>{email}</a>
+          <b className="let-spc">Contacts:</b> {mobile} / <a href={`mailto:${email}`}>{email}</a>
         </span>
       </div>
     );

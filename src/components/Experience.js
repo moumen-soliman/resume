@@ -6,7 +6,7 @@ class Experience extends Component {
     return (
       <div>
         <div className="app__experience__item">
-            <h4>{company}</h4>,
+            <h4 className="let-spc">{company}</h4>,
             <p> {position} <span>{date}</span></p>
             <ul>
                 {todo.map(post => <li>{post.point}</li>)}

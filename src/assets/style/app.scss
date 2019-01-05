@@ -12,6 +12,9 @@
   .pd-btm {
     padding-bottom: 20px;
   }
+  .let-spc {
+    letter-spacing: 1px;
+  }
   &__header {
     &__info {
       margin-top: 15px;
@@ -113,9 +116,9 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 1060px) {
   .app {
-    font-size: 0.5em !important;
+    font-size: 0.67em !important;
     .social-items {
       .social-item {
         margin: auto 7px !important;
