@@ -119,6 +119,9 @@
 @media screen and (min-width: 320px) and (max-width: 1060px) {
   .app {
     font-size: 0.67em;
+    &__projects {
+      margin-bottom: 30px;
+    }
     .social-items {
       .social-item {
         margin: auto 7px;
