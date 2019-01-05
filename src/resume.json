@@ -1,11 +1,10 @@
 {
     "personal": {
         "name": "Moumen Soliman",
-        "position": "Mid-level Front-end Developer",
+        "position": "Software Engineer, Front-end",
         "born": "19 Oct 1995 / Cairo, Egypt",
         "email": "moumensoliman@gmail.com",
-        "mobile": "+201128412656",
-        "education": "Cairo higher Institute - Computer Science"
+        "mobile": "+201128412656"
     },
     "social": [
         {
@@ -37,6 +36,211 @@
             "name": "hackerrank",
             "link": "https://hackerrank.com/moumensoliman",
             "logo": "https://static.brandfolder.com/hackerrank/logo/hackerrank-primary-logo.png"
+        }
+    ],
+    "experience": [
+        {
+            "id": 1,
+            "company": "CyberTalents",
+            "location": "Egypt, Smart Village",
+            "link": "cybertalents.com",
+            "position": "Software Engineer, Front-end - Full time",
+            "date": "Summer 2017 - Present",
+            "description": "CyberTalents is a platform that ranks cyber security talents according to their real hands on skills in different cyber security categories by running CTF Competitions in order to get hired by recruiters.",
+            "logo": "https://scontent-hbe1-1.xx.fbcdn.net/v/t1.0-9/26992700_1511812872221131_9112227801524134774_n.jpg?_nc_cat=101&_nc_ht=scontent-hbe1-1.xx&oh=c0a0bfdc1074ab5216576eb8bf363d65&oe=5C8BA7B2",
+            "todo": [
+                {
+                    "point": "Building Website UI" 
+                },
+                {
+                    "point": "Developed website components using VueJS"
+                },
+                {
+                    "point": "Refactor CSS structure and convert it to SASS(SCSS) Pre-processor and using BEM Methodology"
+                },
+                {
+                    "point": "Improved the performance by 30% using Webpack code splitting"
+                },
+                {
+                    "point": "Developed JavaScript structure and imports"
+                },
+                {
+                    "point": "Developed UI layouts and convert it to SPA"
+                },
+                {
+                    "point": "Handle webpack to working with .mix"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "company": "Reachnetwork",
+            "location": "Kuwait",
+            "link": "https://cybertalents.com/",
+            "position": "Software Engineer, Front-end - Part time",
+            "date": "Winter 2018 - Summer 2018",
+            "description": "Reachnetwork is an application that carries all your contacts under one username to make it easier on your followers and customers to reach you in a more convenient way.",
+            "logo": "https://media.licdn.com/dms/image/C4D0BAQGQZKtDcgMyRg/company-logo_200_200/0?e=1554940800&v=beta&t=ixcWF4Kx4Ea1tI6N17xJPA8jjpOGxgDL1_ghi_og1wE",
+            "todo": [
+                {
+                    "point": "Building Website PSD to Vuejs" 
+                },
+                {
+                    "point": "Developed website components using VueJS"
+                },
+                {
+                    "point": "Create website CSS structure using SASS(SCSS) Pre-processor and BEM Methodology"
+                },
+                {
+                    "point": "Working on website performance to be load less than 8K-ms"
+                },
+                {
+                    "point": "Developed state management structure using Vuex"
+                },
+                {
+                    "point": "Inherit data with Reachnetwork API's using Axios - Vue/Axios"
+                },
+                {
+                    "point": "Developed login system with different social media accounts and using localStorage to store the token"
+                },
+                {
+                    "point": "Developed SEO using Nuxt.js"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "company": "BrandWorxltd Agency",
+            "location": "Egypt, Maadi",
+            "link": "brandworxltd.com",
+            "position": "Junior Software Engineer, Front-end - Full time",
+            "date": "Summer 2016 - Summer 2017",
+            "description": "BrandWorx is a newly born agency aimed at delivering 'Stress Free Communication' to its clients.",
+            "logo": "https://scontent-hbe1-1.xx.fbcdn.net/v/t1.0-9/1935824_1170177989674096_1215751097065692639_n.jpg?_nc_cat=105&_nc_ht=scontent-hbe1-1.xx&oh=95b95aa49f7544d7df060d08ac182c8a&oe=5C9423DB",
+            "todo": [
+                {
+                    "point": "Building websites PSD to HTML with perfect pixels"
+                },
+                {
+                    "point": "Developed motions using (Canvas, SVG) for website"
+                },
+                {
+                    "point": "Developed grid system using CSS (Flexbox - %)"
+                },
+                {
+                    "point": "Developed Websites performance to be +90 on (PageSpeed Insights - Google)"
+                },
+                {
+                    "point": "Developed several projects PSD to HTML such as (Honda Egypt Official Website, Changan Egypt Official Website, Beni Suef University Website)" 
+                }
+            ]
+        }
+    ],
+    "education": {
+        "uni": "Cairo Higher Institute",
+        "date": "Fall 2013 - 2018 on 4th year",
+        "dep": "Faculty of Computer Science",
+        "undergraduated_course": "Operating Systems; Databases; Algorithms; NLP; Data structure; Programming Languages; Comp. Architecture; Artificial Intelligence;"
+    },
+    "projects": [
+        {
+            "id": 1,
+            "name": "Duplicated CSS lines",
+            "description": "Javascript package to skip .selectors & {} & $variables & < > & var(--variable) & @extends and will start to searching in scopes of your file, Mission is make your stylesheet healthy without duplicates.",
+            "link": "https://github.com/moumen-soliman/duplicated-css-lines"
+        },
+        {
+            "id": 2,
+            "name": "JavaScript document",
+            "description": "Project collect JavaScript concepts and design patterns.",
+            "link": "https://github.com/moumen-soliman/Javascript"
+        },
+        {
+            "id": 3,
+            "name": "Posting app",
+            "description": "Posting application is PWA, is based on NodeJS & Express and throw data by using body-parser & VueJS, and data stored in Google - Firebase, project components cached in browser storage by using Service worker, it's simple app show you how to use Service worker with other JavaScript different components.",
+            "link": "https://github.com/moumen-soliman/Posting-app"
+        },
+        {
+            "id": 4,
+            "name": "Frontend helper",
+            "description": "Project to various frontend resources that will help out frontend developers (primarily those using Vue.js). Its a data-driven project, obviously, and the project uses JSON files with a clear and simple format.",
+            "link": "https://github.com/moumen-soliman/frontend-helper"
+        },
+        {
+            "id": 5,
+            "name": "Posting React-Redux app",
+            "description": "CRUD App by React-Redux using Flux arch. .",
+            "link": "https://github.com/moumen-soliman/posting-react-redux"
+        }
+    ],
+    "certificates": [
+        {
+            "id": 1,
+            "title": "Mobile Web Specialist Nanodegree",
+            "place": "(Google, Udacity)"
+        },
+        {
+            "id": 2,
+            "title": "Google Developer Challenge Scholarship",
+            "place": "(Google)"
+        },
+        {
+            "id": 3,
+            "title": "Complete (JavaScript; ReactJS; NodeJS;) Course",
+            "place": "(Udemy)"
+        },
+        {
+            "id": 4,
+            "title": "Intel® Retail Certified (Associate; Specialist;)",
+            "place": "(Intel)"
+        }
+    ],
+    "awards": [
+        {
+            "id": 1,
+            "title": "Best HTML/CSS Instructor",
+            "date": "Summer 2014 - Winter 2016",
+            "description": "Teach & train +20 student (in student activity) HTML/CSS/JavaScript/jQuery/Bootstrap Basics and building 3 websites."
+        },
+        {
+            "id": 2,
+            "title": "Best Head of Marketing and communication",
+            "date": "Summer 2015 - Winter 2016",
+            "description": "Head of Marketing and communication in Microsoft tech club."
+        }
+    ],
+    "languages": "HTML; CSS; JavaScript; ES5/ES6; CommonJS; AMD; jQuery; SASS; VueJS; ReactJS; Webpack; npm/yarn; git; Browser Storage; PWA; Service worker; NodeJS;",
+    "volunteering": [
+        {
+            "id": 1,
+            "title": "Organizer at Arab Regional Cybersecurity CTF Competition",
+            "date": "August 2018",
+            "description": "Arab Regional CTF the winning teams from CTF around in Middle east, compete to be in japan CTF world competition."
+        },
+        {
+            "id": 2,
+            "title": "Organizer at Egypt National Cybersecurity CTF Competition",
+            "date": "April 2018",
+            "description": "Egypt National Cybersecurity CTF to prepare the best team in Egypt that will be in Arab Regional Cybersecurity CTF."
+        },
+        {
+            "id": 3,
+            "title": "Organizer at Cairo Security Camp 8th",
+            "date": "December 2017",
+            "description": "Cairo Security Camp is annual event in for all security stuff around the world, create in Egypt."
+        },
+        {
+            "id": 4,
+            "title": "Speaker at Azhar Biology Team Event",
+            "date": "April 2017",
+            "description": "Talking about MOOC'S and way to study from online courses and online resources."
+        },
+        {
+            "id": 5,
+            "title": "Speaker at Life Makers Event",
+            "date": "November 2015",
+            "description": "How to use the INTERNET to get your information and ways to self-study online content and how to handle it."
         }
     ]
 }
