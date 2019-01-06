@@ -1,7 +1,7 @@
 {
     "personal": {
         "name": "Moumen Soliman",
-        "position": "Software Engineer, Front-end",
+        "position": "Front End Engineer",
         "born": "19 Oct 1995 / Cairo, Egypt",
         "email": "moumensoliman@gmail.com",
         "mobile": "+201128412656"
@@ -44,7 +44,7 @@
             "company": "CyberTalents",
             "location": "Egypt, Smart Village",
             "link": "cybertalents.com",
-            "position": "Software Engineer, Front-end - Full time",
+            "position": "Front End Engineer",
             "date": "Summer 2017 - Present",
             "description": "CyberTalents is a platform that ranks cyber security talents according to their real hands on skills in different cyber security categories by running CTF Competitions in order to get hired by recruiters.",
             "logo": "https://scontent-hbe1-1.xx.fbcdn.net/v/t1.0-9/26992700_1511812872221131_9112227801524134774_n.jpg?_nc_cat=101&_nc_ht=scontent-hbe1-1.xx&oh=c0a0bfdc1074ab5216576eb8bf363d65&oe=5C8BA7B2",
@@ -77,7 +77,7 @@
             "company": "Reachnetwork",
             "location": "Kuwait",
             "link": "https://cybertalents.com/",
-            "position": "Software Engineer, Front-end - Part time",
+            "position": "Front End Engineer",
             "date": "Winter 2018 - Summer 2018",
             "description": "Reachnetwork is an application that carries all your contacts under one username to make it easier on your followers and customers to reach you in a more convenient way.",
             "logo": "https://media.licdn.com/dms/image/C4D0BAQGQZKtDcgMyRg/company-logo_200_200/0?e=1554940800&v=beta&t=ixcWF4Kx4Ea1tI6N17xJPA8jjpOGxgDL1_ghi_og1wE",
@@ -113,7 +113,7 @@
             "company": "BrandWorxltd Agency",
             "location": "Egypt, Maadi",
             "link": "brandworxltd.com",
-            "position": "Junior Software Engineer, Front-end - Full time",
+            "position": "Junior Front End Engineer",
             "date": "Summer 2016 - Summer 2017",
             "description": "BrandWorx is a newly born agency aimed at delivering 'Stress Free Communication' to its clients.",
             "logo": "https://scontent-hbe1-1.xx.fbcdn.net/v/t1.0-9/1935824_1170177989674096_1215751097065692639_n.jpg?_nc_cat=105&_nc_ht=scontent-hbe1-1.xx&oh=95b95aa49f7544d7df060d08ac182c8a&oe=5C9423DB",
@@ -146,7 +146,7 @@
         {
             "id": 1,
             "name": "Duplicated CSS lines",
-            "description": "Javascript package to skip .selectors & {} & $variables & < > & var(--variable) & @extends and will start to searching in scopes of your file, Mission is make your stylesheet healthy without duplicates.",
+            "description": "Javascript package will skip CSS selectors & SCSS functions and will start to searching in scopes of your file to catch duplicated values but not duplicated variables, Mission is make your stylesheet healthy without duplicates.",
             "link": "https://github.com/moumen-soliman/duplicated-css-lines"
         },
         {
