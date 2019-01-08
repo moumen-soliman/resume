@@ -92,7 +92,7 @@
                     "point": "Create website CSS structure using SASS(SCSS) Pre-processor and BEM Methodology"
                 },
                 {
-                    "point": "Working on website performance to be load less than 8K-ms"
+                    "point": "Working on website performance to be load less than 4K-ms"
                 },
                 {
                     "point": "Developed state management structure using Vuex"
