@@ -1,6 +1,6 @@
 {
-  "short_name": "Moumen Soliman Front End Engineer Resume",
-  "name": "Moumen Soliman Front End Engineer Resume",
+  "short_name": "React App",
+  "name": "Create React App Sample",
   "icons": [
     {
       "src": "favicon.ico",
