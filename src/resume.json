@@ -146,7 +146,7 @@
         {
             "id": 1,
             "name": "Duplicated CSS lines",
-            "description": "Javascript package will skip CSS selectors & SCSS functions and will start to searching in scopes of your file to catch duplicated values but not duplicated variables, Mission is make your stylesheet healthy without duplicates.",
+            "description": "JavaScript package will skip CSS selectors & SCSS functions and will start to searching in scopes of your file to catch duplicated values but not duplicated variables, Mission is make your stylesheet healthy without duplicates.",
             "link": "https://github.com/moumen-soliman/duplicated-css-lines"
         },
         {
