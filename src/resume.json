@@ -169,9 +169,9 @@
         },
         {
             "id": 5,
-            "name": "Posting React-Redux app",
+            "name": "Book Store React-Redux app",
             "description": "CRUD App by React-Redux using Flux arch. .",
-            "link": "https://github.com/moumen-soliman/posting-react-redux"
+            "link": "https://github.com/moumen-soliman/booking-react-redux"
         }
     ],
     "certificates": [
