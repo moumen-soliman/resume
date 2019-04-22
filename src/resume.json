@@ -142,6 +142,31 @@
     "dep": "Faculty of Computer Science",
     "undergraduated_course": "Operating Systems; Databases; Algorithms; NLP; Data structure; Programming Languages; Comp. Architecture; Artificial Intelligence;"
   },
+  "contributions": [
+    {
+      "id": 1,
+      "company": "Tarteel-io",
+      "position": "Front-end core team member",
+      "link": "https://github.com/Tarteel-io/tarteel-frontend",
+      "todo": [
+        {
+          "point": "Developed third-party Quran voice recognition API using NodeJS."
+        },
+        {
+          "point": "Developed scalable different components using TSX/Styled components."
+        },
+        {
+          "point": "Developed voice icon that effect by voice tone."
+        },
+        {
+          "point": "Add & Fix Prettier/Linting configrations with TSX."
+        },
+        {
+          "point": "Refactor Styled components."
+        }
+      ]
+    }
+  ],
   "projects": [
     {
       "id": 1,
@@ -226,30 +251,36 @@
   "volunteering": [
     {
       "id": 1,
+      "title": "Front-end Mentor at Mentors-Without-Borders ",
+      "date": "Winter 2019 - Present",
+      "description": "Helping different people from Asia & Africa to get start on Front-end and help them to take steps towards their dreams."
+    },
+    {
+      "id": 2,
       "title": "Organizer at Arab Regional Cybersecurity CTF Competition",
       "date": "August 2018",
       "description": "Arab Regional CTF the winning teams from CTF around in Middle east, compete to be in japan CTF world competition."
     },
     {
-      "id": 2,
+      "id": 3,
       "title": "Organizer at Egypt National Cybersecurity CTF Competition",
       "date": "April 2018",
       "description": "Egypt National Cybersecurity CTF to prepare the best team in Egypt that will be in Arab Regional Cybersecurity CTF."
     },
     {
-      "id": 3,
+      "id": 4,
       "title": "Organizer at Cairo Security Camp 8th",
       "date": "December 2017",
       "description": "Cairo Security Camp is annual event in for all security stuff around the world, create in Egypt."
     },
     {
-      "id": 4,
+      "id": 5,
       "title": "Speaker at Azhar Biology Team Event",
       "date": "April 2017",
       "description": "Talking about MOOC'S and way to study from online courses and online resources."
     },
     {
-      "id": 5,
+      "id": 6,
       "title": "Speaker at Life Makers Event",
       "date": "November 2015",
       "description": "How to use the INTERNET to get your information and ways to self-study online content and how to handle it."
