@@ -1,14 +1,15 @@
 import React, { Component } from 'react';
 import './assets/style/app.scss';
 import resume from './resume.json';
-import Header from './components/Header';
-import SocialItems from './components/SocialItems';
-import Experience from './components/Experience';
-import Education from './components/Education';
-import Projects from './components/Projects';
-import Certificate from './components/Certificate';
 import Award from './components/Award';
+import Header from './components/Header';
+import Projects from './components/Projects';
+import Education from './components/Education';
 import Volunteer from './components/Volunteer';
+import Experience from './components/Experience';
+import SocialItems from './components/SocialItems';
+import Certificate from './components/Certificate';
+import Contributions from './components/Contributions';
 
 class App extends Component {
   render() {
@@ -37,6 +38,12 @@ class App extends Component {
             <h3 class="head-title let-spc">Education</h3>
             {
               <Education {...resume.education} />
+            }
+          </div>
+          <div className="app__experience pd-btm">
+            <h3 class="head-title let-spc">Contributions</h3>
+            {
+              resume.contributions.map(exp => <Contributions key={exp.id} {...exp} />)
             }
           </div>
           <div className="app__projects pd-btm">
