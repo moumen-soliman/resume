@@ -6,8 +6,7 @@
     "email": "moumensoliman@gmail.com",
     "mobile": "+201128412656"
   },
-  "social": [
-    {
+  "social": [{
       "id": 1,
       "name": "stackoverflow",
       "link": "https://stackoverflow.com/users/8960519/moumen-soliman",
@@ -38,8 +37,7 @@
       "logo": "https://static.brandfolder.com/hackerrank/logo/hackerrank-primary-logo.png"
     }
   ],
-  "experience": [
-    {
+  "experience": [{
       "id": 1,
       "company": "CyberTalents",
       "location": "Egypt, Smart Village",
@@ -48,8 +46,7 @@
       "date": "Summer 2017 - Present",
       "description": "CyberTalents is a platform that ranks cyber security talents according to their real hands on skills in different cyber security categories by running CTF Competitions in order to get hired by recruiters.",
       "logo": "https://scontent-hbe1-1.xx.fbcdn.net/v/t1.0-9/26992700_1511812872221131_9112227801524134774_n.jpg?_nc_cat=101&_nc_ht=scontent-hbe1-1.xx&oh=c0a0bfdc1074ab5216576eb8bf363d65&oe=5C8BA7B2",
-      "todo": [
-        {
+      "todo": [{
           "point": "Building Website UI"
         },
         {
@@ -81,30 +78,50 @@
       "date": "Winter 2018 - Summer 2018",
       "description": "Reachnetwork is an application that carries all your contacts under one username to make it easier on your followers and customers to reach you in a more convenient way.",
       "logo": "https://media.licdn.com/dms/image/C4D0BAQGQZKtDcgMyRg/company-logo_200_200/0?e=1554940800&v=beta&t=ixcWF4Kx4Ea1tI6N17xJPA8jjpOGxgDL1_ghi_og1wE",
-      "todo": [
-        {
-          "point": "Building Website PSD to Vuejs"
+      "todo": [{
+          "point": "Building Website PSD to ReactJS ~ ReachPlus Project"
         },
         {
-          "point": "Developed website components using VueJS"
+          "point": "Developed website components using ReactJS ~ ReachPlus Project"
         },
         {
-          "point": "Create website CSS structure using SASS(SCSS) Pre-processor and BEM Methodology"
+          "point": "Create website CSS structure using SASS(SCSS)/Styled component Pre-processor and BEM Methodology ~ ReachPlus Project"
         },
         {
-          "point": "Working on website performance to be load less than 4K-ms"
+          "point": "Developed state management structure using Redux (Flux Arch.) ~ ReachPlus Project"
         },
         {
-          "point": "Developed state management structure using Vuex"
+          "point": "Inherit data with ReachPlus API's using Axios/Fetch - React/NextJS ~ ReachPlus Project"
         },
         {
-          "point": "Inherit data with Reachnetwork API's using Axios - Vue/Axios"
+          "point": "Browser Storage management with NextJS Server Side Rendering ~ ReachPlus Project"
         },
         {
-          "point": "Developed login system with different social media accounts and using localStorage to store the token"
+          "point": "Developed SEO using NextJS ~ ReachPlus Project"
         },
         {
-          "point": "Developed SEO using Nuxt.js"
+          "point": "Building Website PSD to Vuejs ~ Reachnetwork Project"
+        },
+        {
+          "point": "Developed website components using VueJS ~ Reachnetwork Project"
+        },
+        {
+          "point": "Create website CSS structure using SASS(SCSS) Pre-processor and BEM Methodology ~ Reachnetwork Project"
+        },
+        {
+          "point": "Working on website performance to be load less than 4K-ms ~ Reachnetwork Project"
+        },
+        {
+          "point": "Developed state management structure using Vuex ~ Reachnetwork Project"
+        },
+        {
+          "point": "Inherit data with Reachnetwork API's using Axios - Vue/Axios ~ Reachnetwork Project"
+        },
+        {
+          "point": "Developed login system with different social media accounts and using localStorage to store the token ~ Reachnetwork Project"
+        },
+        {
+          "point": "Developed SEO using Nuxt.js ~ Reachnetwork Project"
         }
       ]
     },
@@ -117,8 +134,7 @@
       "date": "Summer 2016 - Summer 2017",
       "description": "BrandWorx is a newly born agency aimed at delivering 'Stress Free Communication' to its clients.",
       "logo": "https://scontent-hbe1-1.xx.fbcdn.net/v/t1.0-9/1935824_1170177989674096_1215751097065692639_n.jpg?_nc_cat=105&_nc_ht=scontent-hbe1-1.xx&oh=95b95aa49f7544d7df060d08ac182c8a&oe=5C9423DB",
-      "todo": [
-        {
+      "todo": [{
           "point": "Building websites PSD to HTML with perfect pixels"
         },
         {
@@ -142,34 +158,30 @@
     "dep": "Faculty of Computer Science",
     "undergraduated_course": "Operating Systems; Databases; Algorithms; NLP; Data structure; Programming Languages; Comp. Architecture; Artificial Intelligence;"
   },
-  "contributions": [
-    {
-      "id": 1,
-      "company": "Tarteel-io",
-      "position": "Front-end core team member",
-      "link": "https://github.com/Tarteel-io/tarteel-frontend",
-      "date": "Winter 2019",
-      "todo": [
-        {
-          "point": "Developed third-party Quran voice recognition API using NodeJS."
-        },
-        {
-          "point": "Developed scalable different components using TSX/Styled components."
-        },
-        {
-          "point": "Developed voice icon that effect by voice tone."
-        },
-        {
-          "point": "Add & Fix Prettier/Linting configrations with TSX."
-        },
-        {
-          "point": "Refactor Styled components."
-        }
-      ]
-    }
-  ],
-  "projects": [
-    {
+  "contributions": [{
+    "id": 1,
+    "company": "Tarteel-io",
+    "position": "Front-end core team member",
+    "link": "https://github.com/Tarteel-io/tarteel-frontend",
+    "date": "Winter 2019",
+    "todo": [{
+        "point": "Developed third-party Quran voice recognition API using NodeJS."
+      },
+      {
+        "point": "Developed scalable different components using TSX/Styled components."
+      },
+      {
+        "point": "Developed voice icon that effect by voice tone."
+      },
+      {
+        "point": "Add & Fix Prettier/Linting configrations with TSX."
+      },
+      {
+        "point": "Refactor Styled components."
+      }
+    ]
+  }],
+  "projects": [{
       "id": 1,
       "name": "Duplicated CSS lines",
       "description": "JavaScript package will skip CSS selectors & SCSS functions and will start to searching in scopes of your file to catch duplicated values but not duplicated variables, Mission is make your stylesheet healthy without duplicates.",
@@ -212,8 +224,7 @@
       "link": "https://github.com/moumen-soliman/clothes-store"
     }
   ],
-  "certificates": [
-    {
+  "certificates": [{
       "id": 1,
       "title": "Mobile Web Specialist Nanodegree",
       "place": "(Google, Udacity)"
@@ -234,8 +245,7 @@
       "place": "(Intel)"
     }
   ],
-  "awards": [
-    {
+  "awards": [{
       "id": 1,
       "title": "Best HTML/CSS Instructor",
       "date": "Summer 2014 - Winter 2016",
@@ -249,8 +259,7 @@
     }
   ],
   "languages": "HTML; CSS; JavaScript; ES5/ES6; CommonJS; AMD; jQuery; SASS; VueJS; ReactJS; Webpack; npm/yarn; git; Web Storage; PWA; Service worker; NodeJS; Apollo; GraphQL; Prisma;",
-  "volunteering": [
-    {
+  "volunteering": [{
       "id": 1,
       "title": "Front-end Mentor at Mentors-Without-Borders ",
       "date": "Winter 2019 - Present",
