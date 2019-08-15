@@ -3,6 +3,11 @@ import ReactDOM from 'react-dom';
 import './assets/style/index.scss';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import ReactGA from 'react-ga';
+
+ReactGA.initialize('UA-139161815-1'); // Here we should use our GA id
+
+ReactGA.pageview("/");
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
