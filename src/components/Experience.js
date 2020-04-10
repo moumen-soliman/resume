@@ -23,8 +23,8 @@ const Experience = ({
         {position} <span>{date}</span>
       </p>
       <ul>
-        {todo.map(post => (
-          <li>{post.point}</li>
+        {todo.map((post, index) => (
+          <li key={index}>{post.point}</li>
         ))}
       </ul>
     </div>

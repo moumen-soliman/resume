@@ -2,7 +2,6 @@
 @import './skeleton/grids.scss';
 
 .app {
-  color: $black;
 
   .head-title {
     margin-bottom: 0;
@@ -26,6 +25,12 @@
       h1 {
         margin-bottom: 0px;
         letter-spacing: 1px;
+      }
+
+      a {
+        color: $blue;
+        font-weight: 600;
+        text-decoration: unset;
       }
 
       span:first-child {
@@ -60,6 +65,12 @@
             &:hover {
               padding-bottom: 10px;
               border-bottom: 4px solid $blue;
+              -webkit-filter: grayscale(0%);
+              /* Safari 6.0 - 9.0 */
+              filter: grayscale(0%);
+            }
+
+            @media print {
               -webkit-filter: grayscale(0%);
               /* Safari 6.0 - 9.0 */
               filter: grayscale(0%);
