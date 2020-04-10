@@ -1,7 +1,5 @@
 import React from "react";
-
-import moon from "../assets/icons/moon.svg";
-import sun from "../assets/icons/sun.svg";
+import { moon, sun } from "./constants";
 
 const ModelIcon = ({ dark }) => (
   <div className="media-icon">
