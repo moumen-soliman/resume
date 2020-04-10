@@ -25,12 +25,6 @@
       "logo": "https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png"
     },
     {
-      "id": 4,
-      "name": "medium",
-      "link": "https://medium.com/@moumensoliman",
-      "logo": "https://seeklogo.com/images/M/medium-logo-AC4BE02AB0-seeklogo.com.png"
-    },
-    {
       "id": 5,
       "name": "hackerrank",
       "link": "https://hackerrank.com/moumensoliman",
@@ -51,6 +45,9 @@
         },
         {
           "point": "Developed website components using VueJS"
+        },
+        {
+          "point": "Developed TailwindCSS strucure/components"
         },
         {
           "point": "Refactor CSS structure and convert it to SASS(SCSS) Pre-processor and using BEM Methodology"
@@ -159,28 +156,48 @@
     "undergraduated_course": "Operating Systems; Databases; Algorithms; NLP; Data structure; Programming Languages; Comp. Architecture; Artificial Intelligence;"
   },
   "contributions": [{
-    "id": 1,
-    "company": "Tarteel-io",
-    "position": "Front-end core team member",
-    "link": "https://github.com/Tarteel-io/tarteel-frontend",
-    "date": "Winter 2019",
-    "todo": [{
-        "point": "Developed third-party Quran voice recognition API using NodeJS."
-      },
-      {
-        "point": "Developed scalable different components using TSX/Styled components."
-      },
-      {
-        "point": "Developed voice icon that effect by voice tone."
-      },
-      {
-        "point": "Add & Fix Prettier/Linting configrations with TSX."
-      },
-      {
-        "point": "Refactor Styled components."
-      }
-    ]
-  }],
+      "id": 1,
+      "company": "Tarteel-io",
+      "position": "Front-end core team member",
+      "link": "https://github.com/Tarteel-io/tarteel-frontend",
+      "date": "Winter 2019",
+      "todo": [{
+          "point": "Developed third-party Quran voice recognition API using NodeJS."
+        },
+        {
+          "point": "Developed scalable different components using TSX/Styled components."
+        },
+        {
+          "point": "Developed voice icon that effect by voice tone."
+        },
+        {
+          "point": "Add & Fix Prettier/Linting configrations with TSX."
+        },
+        {
+          "point": "Refactor Styled components."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "company": "TeamKnot",
+      "position": "Front-end core team member (Private Repo)",
+      "date": "Winter 2020",
+      "todo": [{
+          "point": "Developed VueJS reusable components"
+        },
+        {
+          "point": "Developed style components with Vuetify"
+        },
+        {
+          "point": "Developed form components by using Vue/Vuex"
+        },
+        {
+          "point": "Create NodeJS script payment system with square-payment"
+        }
+      ]
+    }
+  ],
   "projects": [{
       "id": 1,
       "name": "Duplicated CSS lines",
@@ -226,21 +243,39 @@
   ],
   "certificates": [{
       "id": 1,
-      "title": "Mobile Web Specialist Nanodegree",
-      "place": "(Google, Udacity)"
+      "title": "React Nanodegree",
+      "place": "(Udacity)",
+      "credential_id": "C253HSC",
+      "credential_url": "https://confirm.udacity.com/C253HSC"
     },
     {
       "id": 2,
+      "title": "Front End Developer Nanodegree",
+      "place": "(Udacity)",
+      "credential_id": "LUQQNQ3H",
+      "credential_url": "https://confirm.udacity.com/LUQQNQ3H"
+    },
+    {
+      "id": 3,
+      "title": "Mobile Web Specialist Nanodegree",
+      "place": "(Google, Udacity)",
+      "credential_id": "3RAZMGNE",
+      "credential_url": "https://confirm.udacity.com/3RAZMGNE"
+    },
+    {
+      "id": 4,
       "title": "Google Developer Challenge Scholarship",
       "place": "(Google)"
     },
     {
-      "id": 3,
+      "id": 5,
       "title": "Complete (JavaScript; ReactJS; NodeJS;) Course",
-      "place": "(Udemy)"
+      "place": "(Udemy)",
+      "credential_id": "UC-2HC5B7EI",
+      "credential_url": "https://udemy-certificate.s3.amazonaws.com/image/UC-2HC5B7EI.jpg"
     },
     {
-      "id": 4,
+      "id": 6,
       "title": "Intel® Retail Certified (Associate; Specialist;)",
       "place": "(Intel)"
     }
@@ -258,7 +293,7 @@
       "description": "Head of Marketing and communication in Microsoft tech club."
     }
   ],
-  "languages": "HTML; CSS; JavaScript; ES5/ES6; CommonJS; AMD; jQuery; SASS; VueJS; ReactJS; Webpack; npm/yarn; git; Web Storage; PWA; Service worker; NodeJS; Apollo; GraphQL; Prisma;",
+  "languages": "HTML; CSS; Bootstrap/Vuetify/TailwindCSS/styled-components/MaterialUI; JavaScript (ES5/ES6); jQuery; SASS(SCSS); VueJS/Vuex/Nuxt; ReactJS/Redux/Next; Webpack; npm/yarn; git; Web Storage; PWA; Service worker; NodeJS; GraphQL;",
   "volunteering": [{
       "id": 1,
       "title": "Front-end Mentor at Mentors-Without-Borders ",
