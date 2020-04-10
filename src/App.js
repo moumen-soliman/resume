@@ -19,7 +19,6 @@ import "./assets/style/app.scss";
 const Wrapper = styled("div")`
   display: flow-root;
   width: 100vw;
-  height: 100vh;
   background: ${props => props.theme.background} !important;
   color: ${props => props.theme.body} !important;
 `;
