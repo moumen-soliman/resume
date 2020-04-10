@@ -1,15 +1,14 @@
-import React, { Component } from 'react';
+import React from "react";
 
-class Volunteer extends Component {
-  render() {
-    const {title, date, description} = this.props
-    return (
-      <div>
-        <p>{title} <span>{date}</span></p>
-        <li><span>{description}</span></li>
-      </div>
-    );
-  }
-}
+const Volunteer = ({ title, date, description }) => (
+  <div>
+    <p>
+      {title} <span>{date}</span>
+    </p>
+    <li>
+      <span>{description}</span>
+    </li>
+  </div>
+);
 
 export default Volunteer;

@@ -1,14 +1,15 @@
-import React, { Component } from 'react';
+import React from "react";
 
-class Certificate extends Component {
-  render() {
-    const {title, place} = this.props
-    return (
-      <div>
-        <p><li>{title} <span>{place}</span></li></p>
-      </div>
-    );
-  }
-}
+const Certificate = ({ title, place, credential_url }) => (
+  <li className="pd-btm">
+    {title}
+    <span> {place} </span>
+    {credential_url && (
+      <a href={credential_url} target="_blank">
+        See credential
+      </a>
+    )}
+  </li>
+);
 
 export default Certificate;
