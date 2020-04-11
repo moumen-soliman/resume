@@ -20,7 +20,16 @@ const Wrapper = styled("div")`
   display: flow-root;
   width: 100vw;
   background: ${props => props.theme.background} !important;
-  color: ${props => props.theme.body} !important;
+  color: ${props => props.theme.body};
+
+  @media print {
+    background: white;
+    color: black !important;
+
+    .media-icon {
+      display: none;
+    }
+  }
 `;
 
 const App = () => {
