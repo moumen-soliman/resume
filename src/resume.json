@@ -264,18 +264,25 @@
     },
     {
       "id": 4,
+      "title": "Data Structures & Algorithms Nanodegree",
+      "place": "(Udacity)",
+      "credential_id": "LGR3CSS7",
+      "credential_url": "https://confirm.udacity.com/LGR3CSS7"
+    },
+    {
+      "id": 5,
       "title": "Google Developer Challenge Scholarship",
       "place": "(Google)"
     },
     {
-      "id": 5,
+      "id": 6,
       "title": "Complete (JavaScript; ReactJS; NodeJS;) Course",
       "place": "(Udemy)",
       "credential_id": "UC-2HC5B7EI",
       "credential_url": "https://udemy-certificate.s3.amazonaws.com/image/UC-2HC5B7EI.jpg"
     },
     {
-      "id": 6,
+      "id": 7,
       "title": "Intel® Retail Certified (Associate; Specialist;)",
       "place": "(Intel)"
     }
