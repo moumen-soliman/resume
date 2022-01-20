@@ -5,9 +5,11 @@ const Volunteer = ({ title, date, description }) => (
     <p>
       {title} <span>{date}</span>
     </p>
-    <li>
-      <span>{description}</span>
-    </li>
+    {description && (
+      <li>
+        <span>{description}</span>
+      </li>
+    )}
   </div>
 );
 

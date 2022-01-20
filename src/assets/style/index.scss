@@ -18,6 +18,10 @@ body {
     width: 100%;
     height: 5px;
     background: $blue;
+
+    @media print {
+      background: 0
+    }
   }
 
   .media-icon {

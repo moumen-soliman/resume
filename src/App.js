@@ -25,7 +25,13 @@ const Wrapper = styled("div")`
   @media print {
     background: white;
     color: black !important;
-
+    .container {
+      font-size: 14px;
+    }
+    .app__languages,
+    .app__award {
+      display: none;
+    }
     .media-icon {
       display: none;
     }
@@ -65,7 +71,7 @@ const App = () => {
             {<Education {...resume.education} />}
           </div>
           <div className="app__experience pd-btm">
-            <h3 className="head-title let-spc">Contributions</h3>
+            <h3 className="head-title let-spc">Contributions & Part-time</h3>
             {resume.contributions.map(exp => (
               <Contributions key={exp.id} {...exp} />
             ))}

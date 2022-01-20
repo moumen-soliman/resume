@@ -8,10 +8,18 @@
     padding-bottom: 5px;
     margin-bottom: 10px;
     border-bottom: 1px solid $gray;
+
+    @media print {
+      margin-top: 7px
+    }
   }
 
   .pd-btm {
     padding-bottom: 20px;
+
+    @media print {
+      padding-bottom: 0px;
+    }
   }
 
   .let-spc {
@@ -25,6 +33,11 @@
       h1 {
         margin-bottom: 0px;
         letter-spacing: 1px;
+
+        @media print {
+          margin: 0px;
+          margin-top: -20px;
+        }
       }
 
       a {
@@ -49,6 +62,11 @@
         display: inline-flex;
         float: right;
         height: 6em;
+
+        @media print {
+          height: 0px;
+          margin: 0
+        }
 
         .social-item {
           margin: auto 20px;
@@ -79,6 +97,10 @@
         }
       }
     }
+
+    @media print {
+      margin-top: 0
+    }
   }
 
   &__experience {
@@ -94,6 +116,10 @@
           &:hover {
             text-decoration: underline;
           }
+        }
+
+        @media print {
+          margin: 0
         }
       }
 
