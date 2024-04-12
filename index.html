@@ -60,6 +60,19 @@
       ]
     }
   </script>
+  <script>
+    function detectmob() {
+      if(window.innerWidth <= 800) {
+        return true;
+      } else {
+        return false;
+      }
+    }
+
+    if (detectmob()) {
+      window.location.href="./cv.pdf";
+    }
+  </script>
 </body>
 
 </html>
